@@ -35,7 +35,7 @@ if (result instanceof Error) {
 sys.puts('Error: '+ result.message);
 }
 else{
- console.log("Good");
+
 fs.writeFileSync('index.html', new Buffer(result));
 }
 })};
